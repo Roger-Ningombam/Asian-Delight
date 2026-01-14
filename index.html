@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asian Delight - Family Restaurant</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Primary Meta Tags -->
+    <title>Asian Delight | Premium Family Restaurant in Imphal</title>
+    <meta name="title" content="Asian Delight | Premium Family Restaurant in Imphal">
+    <meta name="description"
+        content="Experience authentic Asian flavors at Asian Delight, Imphal's premium family restaurant. Luxury dining opposite MU Gate. Book your table today for a memorable meal.">
+    <meta name="keywords"
+        content="Asian Delight, Imphal, Best Restaurant in Manipur, Family Dining, Asian Food, Fine Dining, Chinese, Korean, Continental, MU Gate">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="INSERT_DOMAIN_URL_HERE">
+    <meta property="og:title" content="Asian Delight - Premium Family Dining in Imphal">
+    <meta property="og:description"
+        content="Discover a story told through flavors. Authentic Asian cuisine in a warm, luxury setting opposite MU Gate. Perfect for family gatherings.">
+    <meta property="og:image" content="path/to/social-share-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="INSERT_DOMAIN_URL_HERE">
+    <meta property="twitter:title" content="Asian Delight - Premium Family Dining in Imphal">
+    <meta property="twitter:description"
+        content="Discover a story told through flavors. Authentic Asian cuisine in a warm, luxury setting opposite MU Gate.">
+    <meta property="twitter:image" content="delight-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/jpg" href="asian-delight-logo.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="logo">
-                <a href="index.html" style="text-decoration: none;">
-                    <img src="logo-text.png" alt="Asian Delight Logo" class="logo-image">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="delight-logo.png" alt="Asian Delight Logo" class="brand-logo">
                 </a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="menu.html" class="nav-link">Menu</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="#book" class="nav-link">Booking</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+                <div class="ms-auto">
+                    <a href="book.html" class="btn btn-cta">BOOK A RESERVATION</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -33,148 +60,210 @@
     <!-- Main Content -->
     <main>
         <!-- Hero Section -->
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <h1 class="hero-title">We welcome you here at</h1>
-                <div class="hero-logo">
-                <div class="logo-circle">
-                <img src="asian-delight-logo.jpg" alt="Restaurant Logo">
+        <section class="hero-section d-flex align-items-center" id="home">
+            <div class="container">
+                <div class="hero-content-wrapper text-center">
+                    <h1 class="display-4 hero-welcoming-text">Welcome to Asian Delight</h1>
+                    <p class="hero-subtext">
+                        Come for the authentic flavors, stay for the memories.
+                        We invite you to gather, relax, and enjoy a meal made with love—because
+                        the best nights are the ones spent laughing and eating with the people who matter most.
+                    </p>
+                    <div class="mt-4">
+                        <a href="#menu" class="btn btn-primary-custom smooth-scroll">EXPLORE MENU</a>
+                    </div>
                 </div>
-                </div>
-                <p class="hero-description">
-                    to gather and savor the evening , creating lasting memories filled 
-                    with laughter, flavours and togetherness to bring people closer. 
-                    Because the best nights are spent around the table with the ones you love.
-                </p>
-                <a href="menu.html" class="cta-button">CHECK OUR MENU</a>
             </div>
         </section>
 
-        <!-- Restaurant Interior -->
-        <section class="interior">
+        <!-- Restaurant Interior Gallery -->
+        <section class="interior" id="gallery">
+            <div class="interior-text mb-5">
+                <h2 class="display-5">Experience the Ambiance</h2>
+                <p class="lead italic-quote">"Feeding the body is food, but feeding the soul is a table shared with
+                    family."</p>
+                <p class="sub-text">Every meal is a chance to gather, relax, and savor the moments that become memories.
+                </p>
+            </div>
             <div class="interior-slider">
                 <div class="slider-container">
                     <div class="slider-wrapper">
-                        <div class="slide active">
-                            <img src="asian_delight_interior1.png" alt="Restaurant Interior 1" />
+                        <div class="slide">
+                            <img src="delight-interior1.png" alt="Asian Delight Interior 1" />
                         </div>
                         <div class="slide">
-                            <img src="asian_delight_interior2.png" alt="Restaurant Interior 2" />
+                            <img src="delight-interior2.png" alt="Asian Delight Interior 2" />
                         </div>
                         <div class="slide">
-                            <img src="asian_delight_interior3.png" alt="Restaurant Interior 3" />
+                            <img src="delight-interior3.png" alt="Asian Delight Interior 3" />
+                        </div>
+                        <div class="slide">
+                            <img src="delight-interior4.png" alt="Asian Delight Interior 4" />
+                        </div>
+                        <div class="slide">
+                            <img src="delight-interior5.png" alt="Asian Delight Interior 5" />
+                        </div>
+                        <div class="slide">
+                            <img src="delight-interior6.png" alt="Asian Delight Interior 6" />
+                        </div>
+                        <div class="slide">
+                            <img src="delight-interior7.png" alt="Asian Delight Interior 7" />
                         </div>
                     </div>
-                    <button class="slider-btn prev-btn">&lt;</button>
-                    <button class="slider-btn next-btn">&gt;</button>
-                </div>
-                <div class="slider-dots">
-                    <span class="dot active" data-slide="0"></span>
-                    <span class="dot" data-slide="1"></span>
-                    <span class="dot" data-slide="2"></span>
                 </div>
             </div>
+        </section>
+
+        <!-- Menu Introduction -->
+        <section class="menu-intro">
             <div class="interior-text">
-                <h2>Here we serve</h2>
-                <p>Asian Food</p>
+                <h2 class="display-5">The Gourmet Selection</h2>
+                <p class="lead italic-quote">"A well-balanced meal is a plate in each hand."</p>
+                <p class="sub-text">Explore our curated collection of authentic Asian delicacies, prepared with
+                    precision and passion.</p>
             </div>
         </section>
 
-        <!-- Menu Section -->
-        <section class="menu" id="menu">
-            <!-- Korean Food -->
-            <div class="menu-item">
-                <div class="menu-text">
-                    <h3>KOREAN FOOD</h3>
-                </div>
-                <div class="menu-image">
-                    <img src="https://www.seriouseats.com/thmb/WtcBGMWbdUcAIVe8zg4VCm2aqc4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__01__20200122-gimbap-vicky-wasik-24-f5ed1075f35846a29e0812ee053a1bf8.jpg" 
-                    alt="Korean Food" />
+        <!-- Stacking Menu Section -->
+        <section class="menu-stack" id="menu">
+            <div class="menu-stack-item">
+                <div class="menu-plate-wrapper">
+                    <img src="menu1.png" alt="Menu Page 1" />
                 </div>
             </div>
-
-            <!-- Chinese Food -->
-            <div class="menu-item reverse">
-                <div class="menu-text">
-                    <h3>CHINESE FOOD</h3>
-                </div>
-                <div class="menu-image">
-                    <img src="https://static.vecteezy.com/system/resources/previews/055/649/102/non_2x/chinese-food-with-noodles-and-vegetables-in-a-bowl-free-png.png" 
-                    alt="Chinese Food" />
+            <div class="menu-stack-item">
+                <div class="menu-plate-wrapper">
+                    <img src="menu2.png" alt="Menu Page 2" />
                 </div>
             </div>
-
-            <!-- Japanese Food -->
-            <div class="menu-item">
-                <div class="menu-text">
-                    <h3>JAPANESE FOOD</h3>
+            <div class="menu-stack-item">
+                <div class="menu-plate-wrapper">
+                    <img src="menu3.png" alt="Menu Page 3" />
                 </div>
-                <div class="menu-image">
-                    <img src="https://japanesetaste.com/cdn/shop/articles/the-ultimate-guide-to-ramen-the-humble-japanese-noodle-soup-japanese-taste.jpg?v=1711888075&width=5760"
-                     alt="Japanese Food" />
+            </div>
+            <div class="menu-stack-item">
+                <div class="menu-plate-wrapper">
+                    <img src="menu4.png" alt="Menu Page 4" />
+                </div>
+            </div>
+            <div class="menu-stack-item">
+                <div class="menu-plate-wrapper">
+                    <img src="menu5.png" alt="Menu Page 5" />
+                </div>
+            </div>
+            <div class="menu-stack-item">
+                <div class="menu-plate-wrapper">
+                    <img src="menu6.png" alt="Menu Page 6" />
                 </div>
             </div>
         </section>
 
-        <!-- Reservation Section -->
-        <section class="reservation" id="book">
-            <button class="reservation-button" id="openBookingModal">BOOK A RESERVATION</button>
+        <!-- Premium About Section -->
+        <section class="premium-about" id="about">
+            <div class="container-fluid px-5">
+                <!-- About Header -->
+                <div class="about-header text-center mb-5">
+                    <span class="about-tagline">Our Heritage</span>
+                    <h2 class="about-title">A Story Told through Flavors</h2>
+                </div>
+
+                <div class="about-layout">
+                    <!-- Left Column -->
+                    <div class="about-col-left">
+                        <div class="about-text-premium">
+                            <p>
+                                What started as <span class="premium-highlight">family gatherings</span> filled with
+                                laughter and stories has grown into a
+                                sanctuary where <span class="premium-highlight">warmth, hospitality, and flavor</span>
+                                come together. We invite you to become part of our extended family.
+                            </p>
+                            <p style="margin-top: 2rem;">
+                                We believe that <span class="premium-highlight">tradition and love</span> are the secret
+                                ingredients in every recipe. Every plate we serve is a tribute to the craftsmanship of
+                                our ancestors.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Center Column -->
+                    <div class="about-col-center text-center">
+                        <div class="about-image-wrapper">
+                            <img src="delight-wing.png" alt="Asian Delight Spirit" class="about-wings-main" />
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="about-col-right">
+                        <div class="about-text-premium">
+                            <p>
+                                At Asian Delight, food is <span class="premium-highlight">more than a meal</span> – it’s
+                                a way of bringing family and community together.
+                                Our story began with a simple vision: to share the <span
+                                    class="premium-highlight">authentic flavors of Asia</span> that have
+                                been passed down through generations.
+                            </p>
+                            <p style="margin-top: 2rem;">
+                                Our mission remains simple: to serve food that <span class="premium-highlight">delights
+                                    your taste buds</span> and makes you
+                                feel at home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- Evening Section -->
-        <section class="evening">
-            <div class="evening-text">
-                <h2>Enjoy a graceful evening with your loved ones.</h2>
-            </div>
-            <div class="evening-image">
-                <img src="asian_delight_swing.png" alt="Evening Ambiance" />
+        <!-- Team Section -->
+        <section class="team-section">
+            <div class="container">
+                <div class="team-header">
+                    <h2 class="team-section-title">The Team Behind <br> <span class="text-gold">Asian Delight</span>
+                    </h2>
+                </div>
+                <div class="row g-5 text-center">
+                    <!-- Founders -->
+                    <div class="col-md-4">
+                        <div class="team-card">
+                            <div class="team-image-wrapper">
+                                <img src="founders.png" alt="Founders of Asian Delight" class="team-img">
+                                <div class="team-overlay"></div>
+                            </div>
+                            <h3 class="team-role">Founders</h3>
+                        </div>
+                    </div>
+                    <!-- Chefs -->
+                    <div class="col-md-4">
+                        <div class="team-card">
+                            <div class="team-image-wrapper">
+                                <img src="chefs.png" alt="Our Expert Chefs" class="team-img">
+                                <div class="team-overlay"></div>
+                            </div>
+                            <h3 class="team-role">Chefs</h3>
+                        </div>
+                    </div>
+                    <!-- Staffs -->
+                    <div class="col-md-4">
+                        <div class="team-card">
+                            <div class="team-image-wrapper">
+                                <img src="staff.png" alt="Our Dedicated Staff" class="team-img">
+                                <div class="team-overlay"></div>
+                            </div>
+                            <h3 class="team-role">Staff</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
-        <!-- Social Section -->
-        <section class="social">
-    <div class="social-item">
-        <h4>CHECK OUR INSTAGRAM PAGE</h4>
-        <div class="social-link">
-            <img src="https://static.vecteezy.com/system/resources/previews/018/930/415/non_2x/instagram-logo-instagram-icon-transparent-free-png.png"
-             alt="Instagram Icon" class="social-icon">
-            <a href="https://www.instagram.com/asiandelightdrrv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                <p>asiandelightdrrv</p>
-            </a>
-        </div>
-    </div>
-    <div class="social-item">
-        <h4>OPPOSITE MU GATE ROAD, IMPHAL</h4>
-        <div class="social-link">
-            <img src="https://static.vecteezy.com/system/resources/previews/016/716/478/non_2x/google-maps-icon-free-png.png"
-             alt="Map Pin Icon" class="social-icon">
-            <a href="https://maps.app.goo.gl/Lsq73KGvT9YcPe6AA">
-                <p>Google Maps</p>
-                </a>
-        </div>
-    </div>
-</section>
     </main>
-<div id="bookingModal" class="modal">
-    <div class="modal-content">
-        <span class="modal-close">&times;</span>
-        <h2>Book a Table</h2>
-        <p>How would you like to make a reservation?</p>
-        <div class="modal-options">
-            <a href="https://ig.me/m/asiandelightdrrv" class="modal-button instagram" target="_blank">
-                Message on Instagram
-            </a>
-            <a href="tel:+917005611649" class="modal-button phone">
-                Call Us
-            </a>
-        </div>
-    </div>
-</div>
+
     <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2025 Asian Delight. All rights are reserved.</p>
     </footer>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
